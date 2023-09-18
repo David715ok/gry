@@ -43,7 +43,7 @@ $aFul = json_decode($aFul, true);
 //   exit;
 // }
 // else{
-  header('Location: '. $aFul["domain_name"]  .'');
+  header('Location: '. $aFul["domain_name"] . '#0' . $hexValue .'');
   exit;
   // echo '<script type="text/javascript">',
   //    '__Start();',
